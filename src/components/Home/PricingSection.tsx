@@ -74,11 +74,10 @@ export default function PricingSection() {
               />
             </button>
             <span className="fw-medium text-16">Yearly</span>
-            {yearly && (
-              <span className="gap-[10px] px-[20px] py-[7px] text-xs bg-[#1C9876] text-white rounded-full rotate-[20.85deg] absolute top-[-10px] right-[-50px]">
-                Save 40%
-              </span>
-            )}
+
+            <p className="gap-[10px] px-[20px] py-[7px] text-xs bg-primary text-white rounded-full rotate-[20.85deg] absolute top-[-10px] right-[-50px]">
+              Save 40%
+            </p>
           </div>
         </div>
 
@@ -108,8 +107,8 @@ export default function PricingSection() {
               <button
                 className={`w-full py-5  transition text-20 font-bold rounded-full ${
                   plan.highlight
-                    ? "text-white bg-[#1C9876] hover:text-[#1C9876] hover:bg-white"
-                    : "bg-white text-[#1C9876]  hover:bg-[#1C9876] hover:text-white"
+                    ? "text-white bg-primary hover:text-primary hover:bg-white"
+                    : "bg-white text-primary  hover:bg-primary hover:text-white"
                 }`}
               >
                 Get Started
@@ -156,7 +155,7 @@ export default function PricingSection() {
           </div>
         </div>
 
-        <button className="mt-14 md:px-[68px] px-5 py-4 bg-[#1C9876] text-white rounded-full font-bold hover:bg-white hover:text-[#1C9876] transition">
+        <button className="mt-14 md:px-[68px] px-5 py-4 bg-primary text-white rounded-full font-bold hover:bg-white hover:text-primary transition">
           Compare All Features And Plans
         </button>
       </div>
