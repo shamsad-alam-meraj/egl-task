@@ -9,7 +9,7 @@ export default function PricingSection() {
   const [yearly, setYearly] = useState(false);
 
   return (
-    <section className="w-full md:pt-[134px] pt-12">
+    <section className="w-full md:pt-[134px] pt-12 font-manrope">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h2 className="text-2xl md:text-[55px] font-bold capitalize">
           Select the pricing plan that <br /> best suits your needs.

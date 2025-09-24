@@ -31,8 +31,8 @@ export default function EnterprisePlan() {
     <section className="w-full bg-[#EEF8F480] py-12 md:py-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-48 gap-10 items-center px-6">
         {/* LEFT SIDE */}
-        <div>
-          <h2 className="text-3xl md:text-[55px] font-bold leading-snug">
+        <div className="font-manrope">
+          <h2 className="text-3xl md:text-[55px] font-bold leading-snug ">
             Enterprise: <br />{" "}
             <span className="text-3xl md:text-[50px] ">
               A Plan For Any Team
@@ -98,7 +98,7 @@ export default function EnterprisePlan() {
 
         {/* RIGHT SIDE */}
 
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row font-inter">
           {/* Left  */}
           <div className="flex flex-col">
             {/* Toggle */}
@@ -187,9 +187,9 @@ export default function EnterprisePlan() {
                 />
               </div>
             </div>
-            <div className="flex gap-5 justify-start items-center py-6">
-              <h2 className="font-bold text-xl">60</h2>
-              <div className="text-[#0ABD8B] bg-[#D8F3E4] px-1.5 py-1 rounded-full">
+            <div className="flex gap-1 justify-start items-center py-6">
+              <h2 className="font-bold text-lg">60</h2>
+              <div className="text-[#0ABD8B] bg-[#D8F3E4] px-1 py-1 rounded-full">
                 very good and niche relevant
               </div>
             </div>

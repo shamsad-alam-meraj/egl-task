@@ -1,6 +1,17 @@
 @import "tailwindcss";
+@import "@fontsource/manrope/400.css";
+@import "@fontsource/manrope/500.css";
+@import "@fontsource/manrope/700.css";
+
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/700.css";
 
 :root {
+  --font-manrope: "Manrope", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-arial: "Arial", sans-serif;
+
   --background: #ffffff;
   --foreground: #171717;
   --primary: #1c9876;
@@ -20,4 +31,14 @@
     --foreground: #ededed;
     --primary: #1c9876;
   }
+}
+.font-manrope {
+  font-family: var(--font-manrope);
+}
+
+.font-inter {
+  font-family: var(--font-inter);
+}
+.font-arial {
+  font-family: var(--font-arial);
 }

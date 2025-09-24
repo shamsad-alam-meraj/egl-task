@@ -9,6 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/manrope": "^5.2.8",
     "lucide-react": "^0.544.0",
     "motion": "^12.23.21",
     "next": "15.5.4",

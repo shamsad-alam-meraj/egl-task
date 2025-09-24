@@ -10,7 +10,7 @@ export default function TableSection({ title, rows }: TableSectionProps) {
     <>
       {/* Section header */}
       <tr className="border-b border-[#CECCDE]">
-        <td className="p-2 font-bold text-left border-r text-2xl border-[#CECCDE]">
+        <td className="p-2 font-bold text-left border-r text-2xl border-[#CECCDE] font-manrope">
           {title}
         </td>
         <td className="border-x border-[#CECCDE]"></td>
@@ -21,7 +21,7 @@ export default function TableSection({ title, rows }: TableSectionProps) {
 
       {/* Section rows */}
       {rows.map((row, rowIdx) => (
-        <tr key={`${title}-${rowIdx}`} className="hover:bg-green-50">
+        <tr key={`${title}-${rowIdx}`} className="hover:bg-green-50 font-inter">
           {row.map((cell, i) => (
             <td
               key={i}

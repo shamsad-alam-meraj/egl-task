@@ -44,7 +44,7 @@ export default function FAQ() {
 
   return (
     <section className="w-full max-w-4xl mx-auto px-4 py-16">
-      <h2 className="text-2xl md:text-[45px] font-bold text-center mb-14">
+      <h2 className="text-2xl md:text-[45px] font-bold text-center mb-14 font-manrope">
         Frequently Asked Questions
       </h2>
 
@@ -55,15 +55,15 @@ export default function FAQ() {
               className="flex items-start w-full text-left gap-6"
               onClick={() => toggleFAQ(index)}
             >
-              <span className="font-medium text-[#000000] text-[24px]">
+              <span className="font-medium text-[#000000] text-[24px] font-inter">
                 {faq.id}
               </span>
               <div className="flex-1">
-                <h3 className="font-medium text-[#000000] text-[24px]">
+                <h3 className="font-medium text-[#000000] text-[24px] font-inter">
                   {faq.question}
                 </h3>
                 {openIndex === index && (
-                  <p className="mt-2 text-[18px] text-[#000000]">
+                  <p className="mt-2 text-[18px] text-[#000000] font-arial">
                     {faq.answer}
                   </p>
                 )}

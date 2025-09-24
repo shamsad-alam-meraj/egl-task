@@ -15,7 +15,7 @@ export default function Footer() {
               width={123}
               height={36}
             />
-            <p className="mt-4 text-[16px] text-[#595959] leading- text-justify pr-10">
+            <p className="mt-4 text-[16px] text-[#595959] leading- text-justify pr-10 font-inter">
               Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore et dolore magna aliqua. Ut enim ad minim veniam, quis
               nostrud exercitation ullamco laboris nisi ut aliquip ex.
@@ -26,8 +26,8 @@ export default function Footer() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             {/* Solutions */}
             <div>
-              <h3 className="font-semibold text-gray-900 mb-4">Solutions</h3>
-              <ul className="space-y-2 text-sm text-[#595959]">
+              <h3 className="font-semibold text-gray-900 mb-4 font-manrope">Solutions</h3>
+              <ul className="space-y-2 text-sm text-[#595959] font-inter">
                 <li>
                   <a href="#">Web Tool</a>
                 </li>
@@ -42,8 +42,8 @@ export default function Footer() {
 
             {/* Company */}
             <div>
-              <h3 className="font-semibold text-gray-900 mb-4">Company</h3>
-              <ul className="space-y-2 text-sm text-[#595959]">
+              <h3 className="font-semibold text-gray-900 mb-4 font-manrope">Company</h3>
+              <ul className="space-y-2 text-sm text-[#595959] font-inter">
                 <li>
                   <a href="#">About</a>
                 </li>
@@ -58,8 +58,8 @@ export default function Footer() {
 
             {/* Community */}
             <div>
-              <h3 className="font-semibold text-gray-900 mb-4">Community</h3>
-              <ul className="space-y-2 text-sm text-[#595959]">
+              <h3 className="font-semibold text-gray-900 mb-4 font-manrope">Community</h3>
+              <ul className="space-y-2 text-sm text-[#595959] font-inter">
                 <li>
                   <a href="#">Blog</a>
                 </li>
@@ -75,7 +75,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6 pt-6">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6 pt-6 font-inter">
           <p className="text-sm text-gray-500 text-center md:text-left">
            Copyright © 2025 everythinggreen. All Rights Reserved
           </p>

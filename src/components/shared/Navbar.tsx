@@ -23,7 +23,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className="w-full shadow-sm">
+    <header className="w-full shadow-sm font-inter">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between h-[72px] px-6">
         {/* Left Logo */}
         <div>
