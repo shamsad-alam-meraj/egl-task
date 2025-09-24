@@ -1,4 +1,5 @@
 @import "tailwindcss";
+/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"); */
 
 :root {
   --background: #ffffff;
@@ -11,6 +12,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --bg-primary: var(--primary);
 }
 
 @media (prefers-color-scheme: dark) {
